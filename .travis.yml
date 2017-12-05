@@ -3,7 +3,7 @@ env:
   - GIT_NAME: "'Markdown autodeploy'"
   - GIT_EMAIL: goc@opensciencegrid.org
   - GH_REF: git@github.com:opensciencegrid/education.git
-language: python
+language: python3
 before_script:
 - pip install mkdocs
 - pip install MarkdownHighlight
